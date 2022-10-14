@@ -1,0 +1,37 @@
+
+body{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+
+
+}
+div{
+    margin: 10px;
+    background-color: orangered;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+div:nth-child(3n){
+    background-color: yellow;
+}
+div:nth-child(3n+1){
+    background-color: blue;
+}
+div:nth-child(3n-1){
+    background-color: rgb(230, 45, 82);
+}
+
+
+
+
+
+
+
+    
+
+
+
